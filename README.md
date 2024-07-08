@@ -4,7 +4,8 @@ ubuntu-rootfs自动构建脚本
 
 ## 使用
 ```shell
-$ git clone https://github.com/Jubian540/ubuntu-rootfs-build.git
+sudo apt-get update
+sudo apt-get install qemu-user-static
 $ cd ubuntu-rootfs-build
 $ sudo ./build_ubuntu_rootfs.sh
 ```
